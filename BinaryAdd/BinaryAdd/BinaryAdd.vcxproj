@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{81C05F19-FD30-41CC-87D4-3B56E86238E5}</ProjectGuid>
-    <RootNamespace>CatapultDuel</RootNamespace>
+    <ProjectGuid>{F3657D08-AA73-4E0B-A5D4-F569D10104A4}</ProjectGuid>
+    <RootNamespace>BinaryAdd</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,25 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ball.cpp" />
-    <ClCompile Include="Catapult.cpp" />
-    <ClCompile Include="GameObject.cpp" />
-    <ClCompile Include="Scene.cpp" />
-    <ClCompile Include="Score.cpp" />
-    <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Sprite.cpp" />
-    <ClCompile Include="TheGame.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Ball.h" />
-    <ClInclude Include="Catapult.h" />
-    <ClInclude Include="GameObject.h" />
-    <ClInclude Include="SpriteDef.h" />
-    <ClInclude Include="Scene.h" />
-    <ClInclude Include="Score.h" />
-    <ClInclude Include="Sprite.h" />
-    <ClInclude Include="TheGame.h" />
-    <ClInclude Include="UserType.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,3 @@
+﻿  main.cpp
+f:\atzo\mojedatoteke\c++\binaryadd\binaryadd\main.cpp(23): warning C4307: '+': integral constant overflow
+  BinaryAdd.vcxproj -> F:\Atzo\MojeDatoteke\C++\BinaryAdd\x64\Debug\BinaryAdd.exe

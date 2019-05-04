@@ -79,6 +79,4 @@ TheGame::~TheGame()
 	{
 		printf("SetConsoleActiveScreenBuffer failed - (%d)\n", GetLastError());
 	}
-
-	std::cout << "Do nothing!" << std::endl;
 }
